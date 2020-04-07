@@ -1,0 +1,86 @@
+html, body
+{
+  overflow-x: hidden;
+  height: 100%;
+  color: white;
+}
+
+.form-signin
+{
+  width: 100%;
+  max-width: 350px;
+  padding: 15px;
+}
+
+.form-signin .checkbox
+{
+  font-weight: 400px;
+}
+
+.form-signin .form-control
+{
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus
+{
+  z-index: 2;
+}
+
+body, .appBg
+{
+  background-color: beige;
+}
+
+.bg-yellow
+{
+  background-color: purple;
+}
+
+
+.text-black
+{
+  color: #27241f !important;
+}
+
+.table
+{
+  color: white;
+  text-align: center;
+}
+
+.table td
+{
+  vertical-align: middle;
+}
+
+.clickable:hover
+{
+  cursor:pointer;
+}
+
+.unclickable
+{
+  font-weight:normal !important; 
+}
+
+.my-form
+{
+  margin-top: 3rem;
+}
+
+.navbar
+{
+  background-color: purple;
+  position: sticky;
+  top: 0;
+  z-index: 1024;
+}
+
+.btn:disabled
+{
+  cursor: default;
+}
